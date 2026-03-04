@@ -27,7 +27,7 @@ function isBalanced(string) {
        }
     }
  }
- return true;
+ return !queeue.length;
 }
 console.log(isBalanced('(x + y) - (4)')) // -> true
 console.log(isBalanced('(((10 ) ()) ((?)(:)))')) // -> true
